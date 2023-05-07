@@ -10,9 +10,18 @@
   </head>
 
   <body>
+    <section class="overlay"></section>
+    <article class="modal">
+      <img
+        class="close_icon"
+        src="assets/icons/x-circle.svg"
+        alt="Close icon (x)"
+      />
+      <img class="main_image" src="assets/img/familie.jpg" alt="modal-image" />
+    </article>
+
     <header class="landing_page">
       <h1 class="heading">Pen & Paper</h1>
-      <h2>By Chrys</h2>
 
       <!--RPG-ELEMENTS-->
 
@@ -39,13 +48,22 @@
       <!-- </div> -->
     </header>
 
-    <main>
+    <main id="main_section">
       <section class="video_container">
         <video
           class="video_test"
-          src="assets/vid/interview.mp4"
+          src="https://michomedier.dk/pen_paper_interview.mp4"
           controls
         ></video>
+        <!-- <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/fSkbXB5GFMs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe> -->
       </section>
 
       <section class="image_grid_container">
@@ -67,6 +85,6 @@
         />
       </section>
     </main>
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
   </body>
 </html>
