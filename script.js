@@ -34,7 +34,7 @@ function startAnimations() {
   }, 1300);
   setTimeout(function () {
     text.classList.add("visible");
-  }, 1800);
+  }, 2000);
 }
 
 imageGrid.addEventListener("click", chooseImage);
