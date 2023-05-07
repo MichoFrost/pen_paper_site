@@ -19,19 +19,19 @@ function startAnimations() {
 
   setTimeout(function () {
     dragon.classList.add("pop-up");
-  }, 1000);
+  }, 600);
   setTimeout(function () {
     sword.classList.add("pop-up");
-  }, 1200);
+  }, 800);
   setTimeout(function () {
     dice.classList.add("pop-up");
-  }, 1400);
+  }, 1000);
   setTimeout(function () {
     penPaper.classList.add("pop-up");
-  }, 1600);
+  }, 1300);
   setTimeout(function () {
     text.classList.add("visible");
-  }, 2000);
+  }, 1800);
 }
 
 imageGrid.addEventListener("click", chooseImage);
