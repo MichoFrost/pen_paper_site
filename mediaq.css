@@ -17,10 +17,44 @@
   .dice_container {
     width: 22%;
   }
+
+  .heading_container {
+    width: 70%;
+    top: 30%;
+  }
+  .text {
+    font-size: 1.5em;
+    width: 60%;
+    padding: 1em;
+  }
+  a {
+    padding: 5px;
+  }
+
+  /*VIDEOS & IMAGES*/
+  .video_container {
+    margin-top: 14em;
+  }
+  .video_michosite {
+    width: 30%;
+  }
+  .video_YT {
+    width: 25%;
+  }
+
+  .image_grid_container {
+    width: 55%;
+    margin-top: 1em;
+  }
 }
 
 /*MAX 1000PX*/
 @media (max-width: 1000px) {
+  /*MODAL*/
+  .modal {
+    width: 85vw;
+    padding: 2.5rem;
+  }
 }
 
 /*MAX 800PX*/
@@ -37,6 +71,59 @@
   }
   .dice_container {
     width: 28%;
+  }
+
+  .heading_container {
+    width: 90%;
+    top: 28%;
+  }
+  .text {
+    margin-top: 5em;
+  }
+
+  /*VIDEOS & IMAGES*/
+  .video_container {
+    margin-top: 10em;
+    flex-direction: column;
+  }
+  .video_michosite {
+    width: 30%;
+  }
+  .video_YT {
+    display: none;
+  }
+  .image_grid_container {
+    width: 55%;
+    margin-top: 1em;
+  }
+
+  /*MODAL*/
+  .modal {
+    width: 85vw;
+    padding: 2.5rem;
+  }
+  .close_icon {
+    right: 2%;
+    top: 2%;
+    width: 4%;
+  }
+}
+
+/*MAX 700PX*/
+@media (max-width: 700px) {
+  .video_container {
+    flex-direction: column;
+  }
+  .video_michosite {
+    width: 45%;
+  }
+  .image_grid_container {
+    width: 70%;
+    margin-top: 1em;
+  }
+
+  .close_icon {
+    width: 6%;
   }
 }
 
@@ -55,6 +142,37 @@
   .dice_container {
     width: 32%;
   }
+
+  .heading_container {
+    top: 25%;
+  }
+  .text {
+    font-size: 1.2em;
+    width: 60%;
+    padding: 1em;
+  }
+  /*VIDEOS & IMAGES*/
+  .video_container {
+    flex-direction: column;
+  }
+  .video_michosite {
+    width: 80%;
+  }
+  .image_grid_container {
+    width: 80%;
+    margin-top: 1em;
+    grid-template-columns: 1fr;
+  }
+
+  .modal {
+    width: 75vw;
+    padding: 2.5rem;
+  }
+  .close_icon {
+    right: 2%;
+    top: 2%;
+    width: 8%;
+  }
 }
 
 /*MAX 400PX*/
@@ -71,5 +189,20 @@
   }
   .dice_container {
     width: 36%;
+  }
+  .text {
+    font-size: 1.1em;
+    width: 60%;
+    padding: 1em;
+  }
+
+  .modal {
+    width: 85vw;
+    padding: 1.3rem;
+  }
+  .close_icon {
+    right: 2%;
+    top: 2%;
+    width: 8%;
   }
 }
