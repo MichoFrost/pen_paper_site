@@ -1,10 +1,22 @@
 /*GLOBAL*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-image: url("assets/img/old_map.jpg");
   background-size: 100vw 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 /*LANDING PAGE*/
@@ -15,6 +27,7 @@ body {
   background-size: 100vw; */
   /* background-attachment: fixed; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /* overflow: hidden; */
@@ -29,6 +42,22 @@ body {
   color: white; */
 }
 
+.text {
+  opacity: 0;
+  color: white;
+  font-size: 2em;
+  width: 50%;
+  background-color: rgb(0, 0, 0, 0.3);
+  text-align: center;
+  border-radius: 20px;
+  padding: 1em;
+  transition: all 0.3s linear;
+}
+
+.text.visible {
+  opacity: 1;
+}
+
 /*MAIN*/
 
 #main_section {
@@ -37,19 +66,25 @@ body {
 }
 
 /*VIDEO*/
+.buffer {
+  margin-bottom: 5em;
+}
+
 .video_container {
+  margin-top: 10em;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 3em;
+  align-items: center;
 }
 .video_test {
-  width: 50vw;
+  width: 30vw;
 }
 
 /*IMAGE-GRID*/
 
 .image_grid_container {
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -85,7 +120,7 @@ body {
   overflow: hidden;
 } */
 
-#dice {
+.dice {
   z-index: 100;
   position: fixed;
   top: 0;
@@ -94,8 +129,11 @@ body {
   height: 26%;
   background-image: url(assets/svg/dice.svg);
   background-size: cover;
+  transition: all 0.3s cubic-bezier(0, 0.31, 0.66, 1.19);
+
+  translate: -400px -400px;
 }
-#pen_paper {
+.pen_paper {
   z-index: 100;
   position: fixed;
   top: 0;
@@ -104,8 +142,10 @@ body {
   height: 35%;
   background-image: url(assets/svg/pen_paper.svg);
   background-size: cover;
+  transition: all 0.3s cubic-bezier(0, 0.31, 0.66, 1.19);
+  translate: 400px -400px;
 }
-#sword {
+.sword {
   z-index: 100;
   position: fixed;
   bottom: 0;
@@ -114,8 +154,10 @@ body {
   height: 25%;
   background-image: url(assets/svg/sword.svg);
   background-size: cover;
+  transition: all 0.3s cubic-bezier(0, 0.31, 0.66, 1.19);
+  translate: -400px 400px;
 }
-#dragon {
+.dragon {
   z-index: 100;
   position: fixed;
   bottom: -39px;
@@ -124,6 +166,14 @@ body {
   height: 49%;
   background-image: url(assets/svg/dragon.svg);
   background-size: cover;
+  transition: all 0.3s cubic-bezier(0, 0.31, 0.66, 1.19);
+  translate: 400px 400px;
+}
+
+/*SVG-ANIMATION*/
+
+.pop-up {
+  translate: 0px 0px;
 }
 
 /*MODAL*/
