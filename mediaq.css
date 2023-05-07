@@ -1,0 +1,75 @@
+/*MAX 1400PX*/
+@media (max-width: 1400px) {
+}
+
+/*MAX 1100PX*/
+@media (max-width: 1100px) {
+  .pen_paper_container {
+    width: 22%;
+  }
+  .sword_container {
+    width: 22%;
+  }
+  .dragon_container {
+    width: 22%;
+    bottom: -15px;
+  }
+  .dice_container {
+    width: 22%;
+  }
+}
+
+/*MAX 1000PX*/
+@media (max-width: 1000px) {
+}
+
+/*MAX 800PX*/
+@media (max-width: 800px) {
+  .pen_paper_container {
+    width: 28%;
+  }
+  .sword_container {
+    width: 28%;
+  }
+  .dragon_container {
+    width: 28%;
+    bottom: -15px;
+  }
+  .dice_container {
+    width: 28%;
+  }
+}
+
+/*MAX 500PX*/
+@media (max-width: 500px) {
+  .pen_paper_container {
+    width: 32%;
+  }
+  .sword_container {
+    width: 32%;
+  }
+  .dragon_container {
+    width: 32%;
+    bottom: -15px;
+  }
+  .dice_container {
+    width: 32%;
+  }
+}
+
+/*MAX 400PX*/
+@media (max-width: 400px) {
+  .pen_paper_container {
+    width: 36%;
+  }
+  .sword_container {
+    width: 36%;
+  }
+  .dragon_container {
+    width: 36%;
+    bottom: -15px;
+  }
+  .dice_container {
+    width: 36%;
+  }
+}

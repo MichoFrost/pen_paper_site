@@ -81,9 +81,13 @@ a {
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  gap: 2em;
 }
-.video_test {
-  width: 30vw;
+.video_michosite {
+  width: 40%;
+}
+.video_YT {
+  width: 30%;
 }
 
 /*IMAGE-GRID*/
