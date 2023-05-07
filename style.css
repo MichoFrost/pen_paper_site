@@ -1,0 +1,112 @@
+/*GLOBAL*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*LANDING PAGE*/
+.landing_page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/img/old_map.jpg");
+  background-size: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.heading {
+  font-size: 5em;
+  color: white;
+}
+
+/*VIDEO*/
+.video_container {
+  display: flex;
+  justify-content: center;
+}
+.video_test {
+  width: 50vw;
+}
+
+/*IMAGE-GRID*/
+
+.image_grid_container {
+  /* background-color: red; */
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image {
+  width: 22%;
+}
+
+/*RPG-ELEMENTS*/
+
+/* #sword_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 19/9;
+}
+#dragon_container {
+  width: 10%;
+}
+#pen_paper_container {
+  width: 10%;
+}
+#dice_container {
+  width: 10%;
+} */
+
+/* #svg_container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+} */
+
+#dice {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 26%;
+  background-image: url(assets/svg/dice.svg);
+  background-size: cover;
+  /* aspect-ratio: 16/9; */
+}
+#pen_paper {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 35%;
+  background-image: url(assets/svg/pen_paper.svg);
+  background-size: cover;
+}
+#sword {
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  height: 25%;
+  background-image: url(assets/svg/sword.svg);
+  background-size: cover;
+}
+#dragon {
+  z-index: 100;
+  position: fixed;
+  bottom: -39px;
+  right: -29px;
+  width: 26%;
+  height: 49%;
+  background-image: url(assets/svg/dragon.svg);
+  background-size: cover;
+}

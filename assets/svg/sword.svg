@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Sword" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 545.12 435.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a3a3a;
+      }
+
+      .cls-2 {
+        fill: #e09b22;
+      }
+
+      .cls-3 {
+        fill: #f2ca25;
+      }
+
+      .cls-4 {
+        fill: #9dafb2;
+      }
+
+      .cls-5 {
+        fill: #daebef;
+      }
+
+      .cls-6 {
+        fill: #666665;
+      }
+    </style>
+  </defs>
+  <rect class="cls-6" x="103.77" y="233.12" width="53.62" height="176.17" transform="translate(-44.42 620.54) rotate(-127.56)"/>
+  <rect class="cls-1" x="20.83" y="308.52" width="176.17" height="26.81" transform="translate(-173.68 133.14) rotate(-37.56)"/>
+  <polygon class="cls-5" points="193.79 272.59 160.17 228.87 457.75 0 544.65 2.73 524.99 87.43 227.41 316.3 193.79 272.59"/>
+  <polyline class="cls-4" points="545.12 3.34 457.56 1.11 156.32 232.8 189.94 276.52"/>
+  <path class="cls-3" d="m74.28,155.63l49.54,12.3,153.17,199.15-.82,51.04c-.03,1.59-1.52,2.73-3.06,2.35l-49.54-12.31L70.39,209.02l.83-51.04c.03-1.59,1.52-2.73,3.06-2.35Z"/>
+  <rect class="cls-3" x="3.9" y="359.6" width="85.79" height="52.09" transform="translate(-230.37 657.85) rotate(-127.56)"/>
+  <path class="cls-2" d="m201.99,269.56l-76.31-99.21-49.54-12.31c-1.54-.38-3.03.77-3.06,2.35l-.82,51.04,76.31,99.21,53.43-41.09Z"/>
+  <rect class="cls-2" x="7.68" y="347.2" width="52.09" height="42.89" transform="translate(-217.76 96.99) rotate(-37.56)"/>
+</svg>
