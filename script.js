@@ -8,6 +8,7 @@ console.log(closeIcon);
 
 imageGrid.addEventListener("click", chooseImage);
 closeIcon.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
 
 // OPEN MODAL
 

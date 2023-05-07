@@ -20,9 +20,13 @@ body {
   /* overflow: hidden; */
 }
 
-.heading {
-  font-size: 5em;
-  color: white;
+#heading {
+  background-image: url(assets/svg/headline.svg);
+  width: 55%;
+  height: 12%;
+  background-size: cover;
+  /* font-size: 5em;
+  color: white; */
 }
 
 /*MAIN*/
@@ -90,7 +94,6 @@ body {
   height: 26%;
   background-image: url(assets/svg/dice.svg);
   background-size: cover;
-  /* aspect-ratio: 16/9; */
 }
 #pen_paper {
   z-index: 100;
