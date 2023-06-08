@@ -1,94 +1,72 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pen & Paper feat. Chrys</title>
-    <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaq.css" />
-  </head>
 
-  <body>
-    <section class="overlay"></section>
-    <article class="modal">
-      <img
-        class="close_icon"
-        src="assets/icons/x-circle.svg"
-        alt="Close icon (x)"
-      />
-      <img class="main_image" src="assets/img/familie.jpg" alt="modal-image" />
-    </article>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pen & Paper feat. Chrys</title>
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaq.css" />
+</head>
 
-    <header class="landing_page">
-      <!-- <h1 class="heading">Pen & Paper</h1> -->
-      <div class="heading_container">
-        <div class="heading"></div>
+<body>
+  <section class="overlay"></section>
+  <article class="modal">
+    <img class="close_icon" src="assets/icons/x-circle.svg" alt="Close icon (x)" />
+    <img class="main_image" src="assets/img/familie.jpg" alt="modal-image" />
+  </article>
+
+  <header class="landing_page">
+    <!-- <h1 class="heading">Pen & Paper</h1> -->
+    <div class="heading_container">
+      <div class="heading"></div>
+    </div>
+
+    <p class="text">
+      <a href="#main_section">Klik her</a> for at høre Chrys fortælle om sin
+      passion for "Pen & Paper", som er en form for rollespil
+    </p>
+
+
+
+    <!--RPG-ELEMENTS-->
+
+    <div id="svg_container">
+      <div class="dice_container">
+        <div class="dice"></div>
       </div>
-
-      <p class="text">
-        <a href="#main_section">Klik her</a> for at høre Chrys fortælle om sin
-        passion for "Pen & Paper", som er en form for rollespil
-      </p>
-
-      <!--RPG-ELEMENTS-->
-
-      <div id="svg_container">
-        <div class="dice_container">
-          <div class="dice"></div>
-        </div>
-        <div class="pen_paper_container">
-          <div class="pen_paper"></div>
-        </div>
-        <div class="sword_container">
-          <div class="sword"></div>
-        </div>
-        <div class="dragon_container">
-          <div class="dragon"></div>
-        </div>
+      <div class="pen_paper_container">
+        <div class="pen_paper"></div>
       </div>
-    </header>
+      <div class="sword_container">
+        <div class="sword"></div>
+      </div>
+      <div class="dragon_container">
+        <div class="dragon"></div>
+      </div>
+    </div>
+  </header>
 
-    <main id="main_section">
-      <section class="buffer"></section>
-      <section class="video_container">
-        <video
-          class="video_michosite"
-          src="https://michomedier.dk/pen_paper_interview.mp4"
-          controls
-        ></video>
-        <iframe
-          class="video_YT"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/fSkbXB5GFMs"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </section>
+  <main id="main_section">
+    <section class="buffer"></section>
+    <section class="video_container">
+      <!-- <video class="video_michosite" src="https://michomedier.dk/pen_paper_interview.mp4" controls></video> -->
+      <iframe class="video_YT" width="560" height="315" src="https://www.youtube.com/embed/fSkbXB5GFMs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
 
-      <section class="image_grid_container">
-        <img class="image" src="assets/img/terninger.jpg" alt="Terninger" />
-        <img
-          class="image"
-          src="assets/img/sofa.jpg"
-          alt="Interviewee sidder på sofa"
-        />
-        <img
-          class="image"
-          src="assets/img/over-skulder.jpg"
-          alt="Spiller rollespil"
-        />
-        <img
-          class="image"
-          src="assets/img/familie.jpg"
-          alt="Spiller rollespil med familie"
-        />
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+    <section class="image_grid_container">
+      <img class="image" src="assets/img/terninger.jpg" alt="Terninger" />
+      <img class="image" src="assets/img/sofa.jpg" alt="Interviewee sidder på sofa" />
+      <img class="image" src="assets/img/over-skulder.jpg" alt="Spiller rollespil" />
+      <img class="image" src="assets/img/familie.jpg" alt="Spiller rollespil med familie" />
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
 </html>
